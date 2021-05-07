@@ -1,0 +1,11 @@
+com/example/ttsusing/MainActivity.java
+ com.example.ttsusing.MainActivity
+ com.example.ttsusing.MainActivity$1
+ com.example.ttsusing.MainActivity$2
+ com.example.ttsusing.MainActivity$3
+com/example/ttsusing/BuildConfig.java
+ com.example.ttsusing.BuildConfig
+com/example/ttsusing/PlayState.java
+ com.example.ttsusing.PlayState
+com/example/ttsusing/TextPlayer.java
+ com.example.ttsusing.TextPlayer
