@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="6"
+    tools:context=".models.menu_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="5">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:text="  편 의   기 능"
+            android:gravity="bottom"
+            android:textSize="25dp" >
+        </TextView>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="?android:attr/listDivider" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="계산기"
+            android:layout_margin="8dp"
+            android:backgroundTint="#FFE2FA"
+            android:textColor="#7A7A7A"
+            android:textSize="30sp"
+            android:drawableLeft="@drawable/calcu"
+            app:layout_constraintEnd_toStartOf="@+id/button10"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" >
+        </Button>
+
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="그림판"
+            android:layout_margin="8dp"
+            android:backgroundTint="#FFE2FA"
+            android:textColor="#7A7A7A"
+            android:textSize="30sp"
+            android:drawableLeft="@drawable/pnt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button9" >
+
+        </Button>
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="미니게임"
+            android:layout_margin="8dp"
+            android:backgroundTint="#FFE2FA"
+            android:textColor="#7A7A7A"
+            android:textSize="30sp"
+            android:drawableLeft="@drawable/game"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button10"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFE2FA"
+            android:text="날씨"
+            android:layout_margin="8dp"
+            android:textColor="#7A7A7A"
+            android:textSize="30sp"
+            android:drawableLeft="@drawable/wth"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button11" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
