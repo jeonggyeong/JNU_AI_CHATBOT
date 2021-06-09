@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <FrameLayout
+        android:id="@+id/width1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="center_vertical"
+            android:background="#000000"/>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/width2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_gravity="center_vertical"
+            android:background="#000000"/>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/width3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_gravity="center_vertical"
+            android:background="#000000"/>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/width4"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_gravity="center_vertical"
+            android:background="#000000"/>
+    </FrameLayout>
+</LinearLayout>
+    <!-- 두께가 다른 네개의 직선을 프레임 레이아웃과 view엘리먼트로 구현 -->
+    <!-- 배경을 검정으로 통일, 높이를 다르게 설정하여 두께가 다른 검정색 직선 표시 -->

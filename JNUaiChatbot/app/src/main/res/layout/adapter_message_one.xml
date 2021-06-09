@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+  <TextView
+      android:id="@+id/message_send"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="30dp"
+      android:layout_marginBottom="5dp"
+      android:background="@drawable/bg_chat_send"
+      android:minHeight="50dp"
+      android:padding="5dp"
+      android:textColor="#515151"
+      android:textSize="20sp"></TextView>
+
+  <LinearLayout
+      android:id="@+id/view_bar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/message_receive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight=".2"
+        android:background="@drawable/bg_chat_receive"
+        android:minHeight="50dp"
+        android:padding="5dp"
+        android:textColor="#515151"
+        android:textSize="20sp"
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/image_receive"
+        android:layout_width="365dp"
+        android:layout_height="350dp"
+        android:layout_weight=".2"
+        android:scaleType="fitStart"
+        />
+
+    <HorizontalScrollView
+        android:id="@+id/image_receive_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        >
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/scrollimage1"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            />
+
+        <ImageView
+            android:id="@+id/scrollimage2"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/scrollimage3"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            />
+        <ImageView
+            android:id="@+id/scrollimage4"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/scrollimage5"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/scrollimage6"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            />
+        <ImageView
+            android:id="@+id/scrollimage7"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/scrollimage8"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"/>
+
+      </LinearLayout>
+
+    </HorizontalScrollView>
+
+  </LinearLayout>
+
+</LinearLayout>
